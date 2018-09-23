@@ -1,6 +1,6 @@
 # Pid Controller
 [![Build Status](https://travis-ci.org/Indushekhar/Pid-Controller.svg?branch=master)](https://travis-ci.org/Indushekhar/Pid-Controller)
-[![Coverage Status](https://coveralls.io/repos/github/Indushekhar/Pid-Controller/badge.svg?branch=master)](https://coveralls.io/github/Indushekhar/Pid-Controller?branch=master
+[![Coverage Status](https://coveralls.io/repos/github/Indushekhar/Pid-Controller/badge.svg?branch=master)](https://coveralls.io/github/Indushekhar/Pid-Controller?branch=master)
 ---
 
 ## Overview
