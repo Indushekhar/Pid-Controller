@@ -3,6 +3,11 @@
 [![Coverage Status](https://coveralls.io/repos/github/Indushekhar/Pid-Controller/badge.svg?branch=master)](https://coveralls.io/github/Indushekhar/Pid-Controller?branch=master)
 ---
 
+## Authors
+### Part 1
+Driver : Indushekhar Prasad Singh
+Navigator : Ashwin Goyal
+
 ## Overview
 
 Simple starter C++ project with:
