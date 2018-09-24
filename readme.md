@@ -9,6 +9,15 @@ Driver : Indushekhar Prasad Singh
 
 Navigator : Ashwin Goyal
 
+UML Class diagram for PID Controller
+
+![Test Image 1](https://github.com/Indushekhar/Pid-Controller/blob/master/Class_Diagram.png)
+
+Activity diagram for PidController class. White activity blocks corresponds to compute method. Colored block corresponds to parametric constructor.
+
+![Test Image 2](https://github.com/Indushekhar/Pid-Controller/blob/master/Pid_Controller_Activity_Diagram%20.png)
+
+
 ## Overview
 
 Simple starter C++ project with:
