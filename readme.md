@@ -18,6 +18,16 @@ Activity diagram for PidController class. White activity blocks corresponds to c
 ![Test Image 2](https://github.com/Indushekhar/Pid-Controller/blob/master/Pid_Controller_Activity_Diagram_V2%20.png)
 
 
+## Authors
+### Part 2
+
+Driver : Bhargav-umd
+
+Navigator : Krishna Bhatu
+
+PID CONTROLLER CLASS Implementation
+
+
 ## Overview
 
 Simple starter C++ project with:
@@ -139,3 +149,12 @@ perspetive view (or Windows->Perspective->Open Perspective->C/C++).
 - Git
 
     It is possible to manage version control through Eclipse and the git plugin, but it typically requires creating another project. If you're interested in this, try it out yourself and contact me on Canvas.
+
+## TODO
+
+- Ask user for set velocity and current velocity to track them than hardcoding
+- Need to tune Kp Ki and Kd values which give more optimal results
+- Make changes such that user can tune the Kp Kd and Ki values
+- Make tests for respective Kp Ki and Kd values 
+- Tune PID values as per Zeigler-Nicholas Method for best results
+
