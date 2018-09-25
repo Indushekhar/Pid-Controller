@@ -36,16 +36,12 @@ double PidController::compute(double currentVelocity, double setVelocity) {
     // update old_error to error
     // return currentVelocityi
     double error = setVelocity - currentVelocity;
-    old_integral += error * dt;
     double derivative = (error - old_error) / dt;
-    double intergral_out = ki * old_integral;
-    // cout<<"intergral_out"<<intergral_out;
-    double derivative_out = kd * derivative;
-    // cout<<"derivative_out"<<derivative_out;
-    double prop_out = kp * error;
-    // cout<< "prop_out"<< prop_out;
+    double derivative_out = kd * derivative;   // Derivative Term Calculated
+    old_integral += error * dt;
+    double intergral_out = ki * old_integral;   // Intergral term calculated
+    double prop_out = kp * error;               // Proportaional Calculation
     currentVelocity = prop_out + intergral_out + derivative_out;
-    // cout<<currentVelocity;
     old_error = error;
     return currentVelocity;
 }
