@@ -12,13 +12,15 @@
 #include <math.h>
 #include <iostream>
 
+using std::cout;
+using std::endl;
 /**
 * @brief Class for Pid Controller
 */
 
 class PidController {
  private:
-    double kp = 0.1, kd = 0.01 , ki= 0.1 , dt = 0.5;
+    double kp = 0.1, kd = 0.01, ki = 0.1, dt = 0.5;
 
  public:
     double old_error, old_integral;
@@ -31,7 +33,8 @@ class PidController {
 
     PidController(double old_error_init, double old_integral_init);
     /**
-    * @brief Method to computes the next current velocity based on the control signal
+    * @brief Method to computes the next current velocity based on the control
+    * signal
     * @param currentVelocity  value of the current velocity
     * @param setVelocity  value of the set velocity or target velocity
     * @param kp  Proportional gain
@@ -44,7 +47,4 @@ class PidController {
     double compute(double currentVelocity, double setVelocity);
 };
 
-#endif  // INCLUDE_PIDCONTROLLER_HPP_"
-
-
-
+#endif   // INCLUDE_PIDCONTROLLER_HPP_"

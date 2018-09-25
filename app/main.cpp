@@ -1,13 +1,14 @@
 /**
 * @file main.cpp
 * @brief PidController main
-* @details It regulates the velocity using a PID controller and reaches the set velocity with some tolerance.
+* @details It regulates the velocity using a PID controller and reaches the set
+* velocity with some tolerance.
 * @author Indushekhar Singh
 * @version 1.0
 * @copyright MIT License (c) 2018 Indushekhar Singh
 */
 
-#include <PidController.hpp>
+#include "../include/PidController.hpp"
 
 /**
 * @brief Main funtion
@@ -24,8 +25,8 @@ int main() {
             break;
         }
     }
-    std::cout << "currentVelocity "<< "="<< " "<< currentVelocity<< std::endl;
+    std::cout << "currentVelocity "
+              << "="
+              << " " << currentVelocity << std::endl;
     return 0;
 }
-
-
