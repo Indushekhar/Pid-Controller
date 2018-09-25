@@ -1,8 +1,6 @@
 # Pid Controller
 [![Build Status](https://travis-ci.org/bhargav-umd/Pid-Controller.svg?branch=master)](https://travis-ci.org/bhargav-umd/Pid-Controller)
 [![Coverage Status](https://coveralls.io/repos/github/bhargav-umd/Pid-Controller/badge.svg?branch=master)](https://coveralls.io/github/bhargav-umd/Pid-Controller?branch=master)
-[Build Status](https://travis-ci.org/Indushekhar/Pid-Controller.svg?branch=master)](https://travis-ci.org/Indushekhar/Pid-Controller_)
-[Coverage Status](https://coveralls.io/repos/github/Indushekhar/Pid-Controller/badge.svg?branch=master)](https://coveralls.io/github/Indushekhar/Pid-Controller?branch=master_)
 ---
 
 ## Authors
