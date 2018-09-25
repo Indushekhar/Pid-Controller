@@ -17,7 +17,13 @@ Activity diagram for PidController class. White activity blocks corresponds to c
 
 ![Test Image 2](https://github.com/Indushekhar/Pid-Controller/blob/master/Pid_Controller_Activity_Diagram_V2%20.png)
 
+## Authors 
+### Part 2
+Driver : Bhargav-umd
 
+Navigator : Krishna Bhatu
+
+PID CONTROLLER CLASS Implementation
 ## Overview
 
 Simple starter C++ project with:
