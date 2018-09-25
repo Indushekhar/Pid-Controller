@@ -1,3 +1,11 @@
+/**
+* @file main.cpp
+* @brief Unit tests main function
+* @author Indushekhar Singh
+* @version 1.0
+* @copyright MIT License (c) 2018 Indushekhar Singh
+*/
+
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
@@ -6,15 +14,5 @@ int main(int argc, char** argv) {
 }
 
 
-class Price {
- public:
-    int price_of_item ;
-    void setPrice(int priceOfItem) {
-        price_of_item = priceOfItem;
-    }
 
-    int getPrice() {
-        return price_of_item;
-    }
-} ;
 
